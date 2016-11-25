@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.xinthe.spaxtest.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorBlack"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="RetailSlick"
+                android:id="@+id/textView"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:scaleType="center"/>
+            <ImageButton
+                android:id="@+id/btn_slide"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/fgnew"
+                android:layout_gravity="right"
+                android:onClick="logoclicked"
+
+                android:paddingTop="4dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="55dp"
+
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

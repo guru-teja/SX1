@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Xinthe SPAX Library</string>
+    <string name="bluetooth_not_enabled">Bluetooth not enabled.</string>
+    <string name="please_enable_bluetooth">Please enable Bluetooth.</string>
+    <string name="service_stop">Service-Stop</string>
+
+    <string name="something_went">Something went wrong. Please try again.</string>
+    <string name="scanning">Scanning</string>
+    <string name="get_position">Get Position</string>
+    <string name="stop_position">Stop Position</string>
+    <string name="getposition">GetPosition</string>
+    <string name="positiondata">positiondata</string>
+    <string name="locp">Loc_P</string>
+    <string name="loct">Loc_T</string>
+    <string name="loclm">Loc_LM</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="endpoints">End Points</string>
+    <string name="connection_changes">connection_changes</string>
+    <string name="service_changes">service_changes</string>
+    <string name="scansettings">scansettings</string>
+
+    <string name="beacon">beacon</string>
+    <string name="beacon_details">Beacon Details</string>
+    <string name="beacondata">beacondata-estimote</string>
+    <string name="beacons_list">Found Beacons</string>
+    <string name="bssid">BSSID</string>
+    <string name="proximity_uuid">Proximity UUID</string>
+    <string name="major">Major</string>
+    <string name="minor">Minor</string>
+    <string name="mac">Mac</string>
+    <string name="uuid">UUID</string>
+    <string name="proximity">Proximity</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="rssi">RSSI</string>
+    <string name="txpower">TxPower</string>
+    <string name="channel">Channel</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="microseconds">Microseconds</string>
+    <string name="upload">Upload</string>
+
+
+    <string-array name="endpointslist">
+        <item>http://192.168.10.233:8080/SpAn_API-Server_Beacons_v3/collect</item>
+        <item>http://125.62.214.222:8080/SpAn_API-Server_Beacons_v3/collect</item>
+        <item>https://sqs.us-west-2.amazonaws.com/829558341394/Beacons_Median</item>
+        <item>arn:aws:sns:us-west-2:829558341394:BEACONS_MEDIAN</item>
+        <item>file:///storage/emulated/0/Collecting-App-Estimote_v2/</item>
+    </string-array>
+
+    <string name="add">Add</string>
+    <string name="enter_end_point">Enter End Point</string>
+    <string name="raw">Raw</string>
+    <string name="agg_b">Agg_B</string>
+    <string name="agg_w">Agg_W</string>
+    <string name="network_icon">Network Icon</string>
+    <string name="db_operation">DB Operation</string>
+    <string name="network_not_available">Network not available,please connect to network.</string>
+    <string name="alert">Alert</string>
+    <string name="aggregation">aggregation</string>
+    <string-array name="add_visitors_endpointslist">
+    <item>
+        http://125.62.214.222:8080/SpAn_API-Server_Visitors_v1/put/addVisitor
+    </item>
+    </string-array>
+
+</resources>

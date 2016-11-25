@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1024697753796",
+    "firebase_url": "https://spax-e1f6d.firebaseio.com",
+    "project_id": "spax-e1f6d",
+    "storage_bucket": "spax-e1f6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024697753796:android:d5494bd510207834",
+        "android_client_info": {
+          "package_name": "com.xinthe.spax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024697753796-ba3rbcccj8nq2cn3emunqlrev6oovil7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLkD1mMRvhMYYqHSdXBzTBMNjPWN6V_gI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024697753796:android:f84aaeaffea8181f",
+        "android_client_info": {
+          "package_name": "com.xinthe.spaxtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024697753796-ba3rbcccj8nq2cn3emunqlrev6oovil7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLkD1mMRvhMYYqHSdXBzTBMNjPWN6V_gI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
